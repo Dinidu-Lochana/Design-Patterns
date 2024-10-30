@@ -1,4 +1,7 @@
 package commands;
 
-public class NoOpCommand {
+public class NoOpCommand implements Command{
+    public void execute(){
+
+    }
 }
