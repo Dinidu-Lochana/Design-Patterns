@@ -6,13 +6,14 @@ import hardware.AutoPilot;
 import hardware.CruiseControl;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
-
+        /*
         Tesla tesla = new Tesla();
         System.out.println(tesla);
 
-         
+         */
 
 
        /*
@@ -34,7 +35,7 @@ public class Main {
 
         */
 
-        /*
+
         Tesla tesla = new Tesla();
 
         CruiseControl cruiseControl = new CruiseControl();
@@ -50,8 +51,8 @@ public class Main {
         System.out.println(tesla);
 
         tesla.activateSlot(1);
-        tesla.deactivateSlot(1);
+        //tesla.deactivateSlot(1);
 
-         */
+
     }
 }

@@ -35,14 +35,5 @@ public class Tesla {
         offCommands[slot].execute();
     }
 
-    @Override
-    public String toString(){
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("\n----Tesla-----\n");
-        for (int i = 0; i < slots; i++) {stringBuilder.append("Slot #" + i + " - " + onCommands[i].getClass().getSimpleName() + "(" + onCommands.getClass().getSimpleName() + ")" +
-                    " - " + offCommands[i].getClass().getSimpleName() + "(" + offCommands.getClass().getSimpleName() + ")" +
-                    "\n");
-        }
-        return stringBuilder.toString();
-    }
+
 }

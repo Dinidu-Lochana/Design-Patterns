@@ -15,7 +15,7 @@ public class EverythingOffCommand implements Command{
 
     @Override
     public void execute(){
-        System.out.println("It's Wake Up Time");
+        System.out.println("Cruise Control and Autopilot has turned off");
         autoPilot.off();
         cruiseControl.off();
         autoPilot.setDestination("");

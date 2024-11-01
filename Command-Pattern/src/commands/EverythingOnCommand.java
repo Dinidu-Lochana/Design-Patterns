@@ -14,7 +14,7 @@ public class EverythingOnCommand implements Command{
 
     @Override
     public void execute(){
-        System.out.println("It's Sleeping Time");
+        System.out.println("Cruise Control and Autopilot has turned on");
         autoPilot.on();
         cruiseControl.on();
         autoPilot.setDestination("Galle");

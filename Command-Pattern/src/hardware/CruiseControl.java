@@ -9,7 +9,7 @@ public class CruiseControl {
     }
 
     public void setSpeed(int speed){
-        System.out.println("Setting speed t0 : "+ speed);
+        System.out.println("Setting speed to : "+ speed);
         this.speed=speed;
     }
 
