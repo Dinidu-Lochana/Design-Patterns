@@ -1,4 +1,6 @@
-public class MsiManufacturer extends Company{
+package MsiFactory;
+
+public class MsiManufacturer extends Company {
     @Override
     public Gpu createGpu(){
         return new MsiGpu();

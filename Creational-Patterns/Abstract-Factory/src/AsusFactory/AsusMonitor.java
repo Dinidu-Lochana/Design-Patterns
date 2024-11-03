@@ -1,4 +1,4 @@
-
+package AsusFactory;
 
 public class AsusMonitor implements Monitor {
     @Override

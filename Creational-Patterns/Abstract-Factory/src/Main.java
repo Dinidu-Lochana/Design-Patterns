@@ -1,3 +1,6 @@
+import AsusFactory.AsusManufacturer;
+import MsiFactory.MsiManufacturer;
+
 public class Main {
     public static void main(String[] args) {
 
